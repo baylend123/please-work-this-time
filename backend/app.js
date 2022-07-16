@@ -46,6 +46,7 @@ app.get('/', async(req, res) => {
   // const user = await Sequelize.literal('select * from users where id=1; ')
  console.log('some change')
  console.log('I am going to throw my computer if this doesnt work')
+ console.log()
   res.json(user)
 })
 
